@@ -1,5 +1,18 @@
-# WavePanel
+# Wave Panel
 The Wave Panel is an open-source acoustic treatment solution that combines diffusion and absorption into one 3D printable panel. 
+
+## About the Wave Panel
+The Wave Panel is designed to be a fairly low-cost solution to tackle basic room acoustic issues. Acoustic treatment can cost anywhere from £10 for ugly looking foam to £100s for aesthetically pleasing solutions. 
+
+Wave Panel costs around £10 per 250mm panel and offers the unique computer aided design cues offered by exposed 3D printed infill patterns. 
+
+### Absorption
+Absorption in the Wave Panel is handled by an insert of 25mm thick rockwool (or similar material) covered by a thin layer of acoustically transparant fabric for a splash of colour. 
+
+### Diffusion
+Diffusion in the Wave Panel is handled by the creation of 3D printed infill patterns. The infill pattern you choose is completely up to the user and can be configured in your slicer using the provided .3mf files which contain both the main Top Panel and the INFILL AREA model in the correct position. Each pattern will have it's own diffusion characteristics and once our research has been completed this will be available in the research section.
+
+For information on how to configure your slicer for exposed infill, see the <b><i>Infill</b></i> section
 
 ## Printable Parts
 Each size variant contains 2 printable files:
