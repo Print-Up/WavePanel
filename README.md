@@ -51,16 +51,61 @@ The <b><i>Bottom Panel</i></b> is the part that attaches to the wall and holds y
 ![Bottom Panel Visualisation](https://user-images.githubusercontent.com/58088168/177224208-e4385726-5d77-4472-afa6-5405f0ffbe13.jpg)
 
 ## Infill Configuration
+Configuring the infill object is a fairly simple task. The current guide only lists steps for PrusaSlicer and a Cura guide will be coming soon!
+
+<ol>
+  
+<li>Import the .3mf Top Panel file you require.
+  
+<ul>
+  
+  <li>When importing this a pop-up warning will appear. This warning will mention <i>Multi-part Object Detected</i>. Please click **YES** to import the models correctly at their respective positions as **1 object with 2 sub-objects**. Clicking no will result in the part being split into 2 separate objects which will cause incorrect slicing. 
+    
+</ul>
+     <p></p>
+<img width="261" alt="Screenshot 2022-07-05 at 12 13 22" src="https://user-images.githubusercontent.com/58088168/177315965-32c0f787-3fac-489e-a6cb-65c5a93d96b0.png">
+
+ <li>Select the <b>**INFILL_AREA**</b> object in the part list. This will also highlight in plater.
+      <p></p>
+<img width="800" alt="Screenshot 2022-07-05 at 12 20 37" src="https://user-images.githubusercontent.com/58088168/177316674-951c9a15-9d83-47f5-af96-cdc45d52afb5.png">
+  <li>Right Click the <b>**INFILL_AREA**</b> object in the part list and select **Infill**
+       <p></p>
+<img width="261" alt="Screenshot 2022-07-05 at 12 23 58" src="https://user-images.githubusercontent.com/58088168/177316949-f6e3250d-1660-45cc-bc98-09b606cc3f05.png">
+
+ <li>Right Click the <b>**INFILL_AREA**</b> again in the part list and select **Layers & Perimeters**
+   <p></p>
+
+ <img width="261" alt="Screenshot 2022-07-05 at 12 25 10" src="https://user-images.githubusercontent.com/58088168/177317122-4f14e805-1fda-4c21-b236-9df406daa7ae.png">
+    
+<li>Now select the modifier for the **INFILL_AREA** object. This will contain the two modifiers we just added (Infill and Layer & Perimeters). Navigating just below this when selected will show the options for these parameters. For a nice Gyroid Infill Diffuser an example of the settings are below:
+   <p></p>
+ <img width="261" alt="Screenshot 2022-07-05 at 12 30 27" src="https://user-images.githubusercontent.com/58088168/177320293-5e12b7e2-4978-4fd4-b969-4927b6f1ebff.png">
+  <p></p>
+<ul> <b>INFILL</b>
+  <p></p>
+  <li>Infill Density = 4% <i>(you can type this manually - you don't have to use the values in the dropdown box)</i>
+  <li>Fill Pattern = Gyroid
+</ul>
+<br>
+  <ul> <b>LAYERS & PERIMETERS</b>
+    <p></p>
+        <p>Here we want to entirely disable top & bottom layers as well as all perimeter printing. We **only** want the infill.</p>
+    
+<li> Bottom solid layers = 0
+<li> Perimeters = 0
+<li> Top Solide Layers = 0
+</ul>
+</ol>
 
 ## Contact
 <ol>
 <li> Print Up
 <ul> 
-<li>info!amp;printup.xyz
+<li>info@printup.xyz
 </ul>
 <li> Main Contributor - Ben Weatherill
 <ul>
-<li>Discord: Phalnix#3899
-<li>Email: ben!amp;printup.xyz
+<li>Discord: Phalnix#3899 - https://discordapp.com/users/phalnix#3899
+<li>Email: ben@printup.xyz
 </ul>
 </ol>
