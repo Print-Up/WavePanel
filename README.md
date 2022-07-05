@@ -51,3 +51,16 @@ The <b><i>Bottom Panel</i></b> is the part that attaches to the wall and holds y
 ![Bottom Panel Visualisation](https://user-images.githubusercontent.com/58088168/177224208-e4385726-5d77-4472-afa6-5405f0ffbe13.jpg)
 
 ## Infill Configuration
+
+## Contact
+<ol>
+<li> Print Up
+<ul> 
+<li>info!amp;printup.xyz
+</ul>
+<li> Main Contributor - Ben Weatherill
+<ul>
+<li>Discord: Phalnix#3899
+<li>Email: ben!amp;printup.xyz
+</ul>
+</ol>
