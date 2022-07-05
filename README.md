@@ -95,6 +95,9 @@ Configuring the infill object is a fairly simple task. The current guide only li
 <li> Perimeters = 0
 <li> Top Solide Layers = 0
 </ul>
+<li> Printing Time!
+  <p></p>
+  <img width="500" alt="Screenshot 2022-07-05 at 13 22 14" src="https://user-images.githubusercontent.com/58088168/177327326-4360ef65-01f9-45ca-b093-2d74e6d5f7a0.png">
 </ol>
 
 ## Contact
