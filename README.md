@@ -3,6 +3,17 @@
 # Wave Panel
 The Wave Panel is an open-source acoustic treatment solution that combines diffusion and absorption into one 3D printable panel. 
 
+### Version Information 
+Current Version: V0.1
+
+Please note, version 0.1 is an early prototype. 
+
+### Upcoming Changes for V0.2
+<ui>
+<li>Stronger Walls across the whole design
+<li>Single Part Design instead of the 2 part design found in V0.1
+</ui>
+
 ## About the Wave Panel
 The Wave Panel is designed to be a fairly low-cost solution to tackle basic room acoustic issues. Acoustic treatment can cost anywhere from £10 for ugly looking foam to £100s for aesthetically pleasing solutions. 
 
